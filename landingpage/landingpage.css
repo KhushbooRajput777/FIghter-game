@@ -1,0 +1,62 @@
+*{
+  max-width: 100%;
+  height: auto;
+}
+body {
+  /* background-image: url('../gamepage/img/landingpage.jpg') */
+  background-size: cover;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.logo{
+  color: #e0360b;
+  text-align: center;
+  text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow;
+  font-size: 4vw;
+  margin-top: 10vw;
+  letter-spacing: .5vw;
+  font-style: italic;
+
+}
+.city{
+  margin-left: -2vw;
+  margin-top: -5vw;
+
+  animation-name: cityslide;
+  animation-duration: 3s;
+}
+.battle{
+  animation-name: battleslide;
+  animation-duration: 3s;
+}
+
+@keyframes cityslide {
+  from{
+    padding-left:60vw;
+    letter-spacing: normal;
+  }
+  to{
+    padding-left:auto;
+    letter-spacing: .5vw;
+  }
+}
+@keyframes battleslide {
+  from{
+    margin-left:-20vw;
+    letter-spacing: normal;
+  }
+  to{
+    padding-left:auto;
+    letter-spacing: .5vw;
+  }
+}
+a{
+  color: #e0360b;
+  text-decoration: none;
+  padding-left: 38vw;
+  font-size: 3vw;
+  font-style: bold;
+}
